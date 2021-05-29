@@ -1,0 +1,65 @@
+html, body {
+  height: 100%;
+}
+
+html {
+  margin: auto;
+  background: #f5edee;
+}
+
+h1 {
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+  align-items: middle;
+  background: linear-gradient(to right, #FFC0CB, #FFECEF);
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  text-align:center;
+  box-sizing: border-box;
+  border: violet;
+}
+
+input[type=text]:focus {
+  background-color: lightpink;
+  border: 3px solid violet;
+}
+
+#result {
+  text-align:center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 10px;
+  width: 100%;
+  line-height: 60px;
+  font-weight: bold;
+  font-size: large;
+  padding: 0 40px;
+  background: rgb(230, 83, 83);
+  border: none;
+  text-align: center;
+}
+
+button:hover {
+  background: rgb(164, 62, 62);
+  cursor: pointer;
+}
